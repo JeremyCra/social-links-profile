@@ -10,7 +10,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-article {
+main {
   display: flex;
   align-items: center;
   justify-content: center;
