@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 22.5rem;
+  width: 100%;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 1.2rem;
+  padding: 2rem 2rem;
+}
+
+.sec-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sec-one img {
+  max-width: 5rem;
+  border-radius: 3rem;
+}
+.sec-one h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+  font-weight: 400;
+}
+.sec-one span {
+  color: hsl(75, 94%, 57%);
+  margin-top: 0.35rem;
+  font-size: 1rem;
+}
+
+.sec-two {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sec-two p {
+  font-size: 0.875rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.sec-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+.sec-three ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 1rem;
+  width: 100%;
+}
+.sec-three ul li {
+  display: flex;
+  flex-direction: column;
+}
+.sec-three ul li a {
+  text-decoration: none;
+  height: 3rem;
+  width: 100%;
+  background-color: hsl(0, 0%, 20%);
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  align-content: center;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+.sec-three ul li a:hover,
+.sec-three ul li a:focus {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+  display: block;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=styles.css.map */
