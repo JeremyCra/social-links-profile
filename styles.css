@@ -92,18 +92,18 @@ main {
   border-radius: 0.5rem;
   font-weight: 600;
 }
-.sec-three ul li a:hover,
-.sec-three ul li a:focus {
-  background-color: hsl(75, 94%, 57%);
-  color: hsl(0, 0%, 8%);
-}
 
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
   display: block;
 }
-
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.sec-three ul li a:hover,
+.sec-three ul li a:focus {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
 }/*# sourceMappingURL=styles.css.map */
